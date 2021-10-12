@@ -2,7 +2,7 @@
 - 👀 I’m interested in game development
 - 🌱 I’m currently learning game development
 - 💞️ I’m looking to collaborate on game development
-- 📫 How to reach me facebook: fb.com/100005213082701 (100% chance of answer) telegram: @JeffGBR (90% chance of answer) discord: JeffGBR#4141 (50% chance of answer)
+- 📫 How to reach me facebook: fb.com/100005213082701 (60% chance of answer) telegram: @JeffGBR (75% chance of answer) discord: JeffGBR#4141 (75% chance of answer)
 
 ps: i really didn't bother to write this :p
 
