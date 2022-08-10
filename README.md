@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @jeffersongomesBR
-- 👀 I’m interested in game development
-- 🌱 I’m currently learning game development
-- 💞️ I’m looking to collaborate on game development
-- 📫 How to reach me facebook: fb.com/100005213082701 (60% chance of answer) telegram: @JeffGBR (75% chance of answer) discord: JeffGBR#4141 (75% chance of answer)
+- 👀 I’m interested in gamedev and microcontrollers
+- 🌱 I’m currently learning electronics
+- 💞️ I’m looking to collaborate on gamedev
+- 📫 How to reach me facebook: fb.com/100005213082701 (30% chance of answer) telegram: @JeffGBR (30% chance of answer) discord: JeffGBR#4141 (40% chance of answer)
 
 ps: i really didn't bother to write this :p
 
