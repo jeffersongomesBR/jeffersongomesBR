@@ -1,7 +1,7 @@
 #include <Arduino.h>
 
 /// --- !THIS IS THE BASE SCRIPT FOR ALL ARDUINO PROJECTS! --- ///
-//Author: JeffG (as decoder)
+//Author: JeffG (as dcoder)
 
 /// ---Pins--- ///
 //#define pins to be used with respective names
@@ -25,8 +25,9 @@ bool condition = false; //Change before/after compile, but read only at setup (o
 /// ---Vars--- ///
 //misselaneus runtime temp data
 //Ex:
-bool bolean = true;
-int i = 32;
+u32 preUpdate;
+u32 preMicroupdate;
+u32 preSecond;
 
 /// ---Objects--- ///
 //Used objects are declared here
@@ -66,20 +67,20 @@ void Start() {
   //...
 }
 
-//Called 10x peer second
+//Called 10x per second
 void Update() {
 
   //...
 }
 
-//Called 1000x peer second
+//Called 1000x per second
 void MicroUpdate() {
 
   //...
 }
 
-//Loop 10x 
-void FixedUpdate() {
+//Called per second 
+void Timer() {
 
   //...
 }
@@ -92,10 +93,28 @@ void FixedUpdate() {
 
 void setup() {
   
-  //...
+  Awake();
 }
 
 void loop() {
   
-  //...
+  u32 currentTime = millis();
+
+  if(currentTime - preUpdate >= 100) {
+
+    preUpdate = currentTime;
+    Update();
+  }
+
+  if(currentTime - preMicroupdate >= 1) {
+
+    preMicroupdate = currentTime;
+    MicroUpdate();
+  }
+
+  if(currentTime - preSecond >= 1000) {
+
+    preSecond = currentTime;
+    Timer();
+  }
 }
