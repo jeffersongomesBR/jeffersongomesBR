@@ -1,8 +1,11 @@
 - 👋 Hi, I’m @jeffersongomesBR
-- 👀 I’m interested in gamedev and microcontrollers
-- 🌱 I’m currently learning electronics
-- 💞️ I’m looking to collaborate on gamedev
-- 📫 How to reach me discord: JeffGBR#4141 (40% chance of answer)
+- 👀 I’m interested in code
+- 🌱 I’m currently learning software engineering 
+- 💞️ I’m looking to collaborate on anything new
+- 📫 How to reach me:
+  jeffersongomes018@gmail.com
+  discord: JeffGBR#4141
+  whatsapp: +5521991646755
 
 <!---
 jeffersongomesBR/jeffersongomesBR is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
